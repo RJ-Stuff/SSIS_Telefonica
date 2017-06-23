@@ -10,5 +10,10 @@
 	"localDir" : "C:\\Users\\sistemas\\Desktop\\output",
 	"remoteDir" : "la prueba",
 	"remoteFiles" : "TRAN_DEUDA_$$$.zip, MASTER_SERVICIO_DELTA_$$$.txt",
-	"timeOut" : "300000"
+	"timeOut" : "300000",
+	"sqlPassword" : <password>,
+	"sqlUser" : <user>,
+	"reportOutputDir" : "",
+	"reportRemoteOutputDir" : "",
+	"sqlConnectionString" : ""
 }
