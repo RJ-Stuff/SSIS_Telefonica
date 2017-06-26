@@ -26,11 +26,12 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-UV63D3T</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA1QCxN6LYokC3lF4Z1po4bgAAAAACAAAAAAAQZgAAAAEAACAAAAAPy9UROL1/4h+F7IDQIQ7vbf1+Bwg/3TTzMryLLUCWCQAAAAAOgAAAAAIAACAAAACln26dYpZWcnJ1zOnuu+phP/JpQO8vk2xYVv76bcpnWJAAAABS9fQ3OCZxoYuwMPIgWIoo/od0CYJP4b51t3bWZKNS1X9avTwkh7A1HWaFyfRw8mJgKxM7esywRDSZsFSEKxrW3Laf65JJkXj8fJdrBlIu1ptmPkm7ryjiIUpI5+7zkJiE9YXO5lExz0Szob7FP1l9VwKp/gUlJFztXUQv0eYGcblzFdKRTExL8+NnU9kbVt1AAAAATKwyR3IcNiXnsIqtH7AVCDqqUdU4MudxBZGb6tyvE3YRMV5RcPYCqJ/jnasBBXBadXQWZlbM6c3XNs4p5hZq9A==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA1QCxN6LYokC3lF4Z1po4bgAAAAACAAAAAAAQZgAAAAEAACAAAAA+AW6xB9BF2x+ykvSMWqPOe466NSquVKFl1I//x5I2JwAAAAAOgAAAAAIAACAAAAC1suRVoe2fpc7I36E54rw9O27klm/DETzc7FnjzPboKpAAAADHzAj0BPKEm8ey2PKIu9GhWuoIKGlrEoTem7rK/YAojtaje1wYUz95SLV1PjnB6O0HZEgeexyJN+upuTE9bXSz3ypXkgVmNC+3JrKRkf1lDl5Iv6fEjna37XXyX0RqItvSEpmR+oB9C2ISHcuBZJ31u7Y8mqjc4Y2kbEgCLMRYFQt7ZJY3qQGXmDInmTknlkZAAAAAcFFUhxBIjDb23rWfyOBgmcR7ExmfOzjcDKJiAp98v4TzTRDKinZhwZ5FjTdqJAt6FEJcjrv0wefuAtva0ymW1w==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
           <SSIS:Package SSIS:Name="LoadDataDialyPackage.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="ExportAndUploadReport.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers />
         <SSIS:DeploymentInfo>
@@ -42,10 +43,10 @@
                 <SSIS:Property SSIS:Name="Name">LoadDataDialyPackage</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">98</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">109</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{AC694A27-85FD-471F-AE31-F9F81A671CAB}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{18571182-5CD4-4ECE-967B-2C194026A71E}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">6</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -172,6 +173,23 @@
                   </SSIS:Properties>
                 </SSIS:Parameter>
               </SSIS:Parameters>
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="ExportAndUploadReport.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{1EE84E94-4F5B-4E08-A295-4035C00D2CCF}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">ExportAndUploadReport</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">5</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{29DC4820-3018-45EA-BF7A-E6E8FF39E949}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">6</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
             </SSIS:PackageMetaData>
           </SSIS:PackageInfo>
         </SSIS:DeploymentInfo>
